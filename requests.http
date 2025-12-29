@@ -1,0 +1,6 @@
+### GET request to example server
+GET http://localhost:8001/mcp
+Accept: text/event-stream
+mcp-session-id: 5e91564f19d944ad9e3dd25166ff3eb3
+
+###
