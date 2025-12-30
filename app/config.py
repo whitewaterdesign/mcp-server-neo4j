@@ -8,6 +8,7 @@ class Config(BaseSettings):
     mcp_host: str = "127.0.0.1"
     mcp_port: str = "8000"
     debug_mode: bool = False
+    db_name: str = "neo4j"
 
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 

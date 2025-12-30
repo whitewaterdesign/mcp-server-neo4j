@@ -4,3 +4,6 @@ Accept: text/event-stream
 mcp-session-id: 5e91564f19d944ad9e3dd25166ff3eb3
 
 ###
+GET https://api.openai.com/v1/models
+Accept: text/json
+Authorization: Bearer {{gpt}}

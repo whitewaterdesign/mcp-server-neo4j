@@ -208,3 +208,7 @@ __marimo__/
 
 # JetBrains
 .idea
+http-client.private.env.json
+
+# Node
+node_modules
